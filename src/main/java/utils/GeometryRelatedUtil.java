@@ -84,7 +84,7 @@ public class GeometryRelatedUtil {
     }
 
     /**
-     * 判断两个几何对象是否包含
+     * 判断两个几何对象是否空间重叠
      *
      * @param geom1
      * @param geom2
@@ -96,7 +96,7 @@ public class GeometryRelatedUtil {
     }
 
     /**
-     * 测试几何geom1是否涵盖几何geom2。
+     * 测试几何geom1是否覆盖几何geom2。
      *
      * @param geom1
      * @param geom2
@@ -120,7 +120,7 @@ public class GeometryRelatedUtil {
     }
 
     /**
-     * 测试此几何geom1是否与几何geom2相交。 (相交)
+     * 测试此几何geom1是否与几何geom2相交。
      *
      * @param geom1
      * @param geom2
